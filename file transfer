@@ -2,3 +2,10 @@ sudo apt install net-tools
 ifconfig
 sudo apt install openssh-server
 scp transfer.txt isha@1.0.0.2:
+
+VM
+touch file.txt --> to create new file
+nano file.txt --> to add content to file
+scp file.txt vagrant@10.0.2.4:/home/vagrant --> to actually transfer file using secure transfer protocol
+ls --> to list all files
+cat file.txt --> to see content within the file
